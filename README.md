@@ -11,18 +11,9 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 7. [Auto Margin](#flex-margin-auto)
 8. [Order](#flex-order)
 
-## Browser support
-- Google Chrome (latest)
-- Opera (latest)
-- Firefox (latest)
-- Safari 6.2+
-- Internet Explorer 8+
-- iOS 7+
-- Android 4.4+
-- Windows Phone 8.1+
 
 
-## Flex Grid, Media Screen Size (-xs-sm-md-lg-xl)
+## Flex Grid, Item Screen Size (-xs -sm -md -lg -xl)
 
 | Media Screen Size  | < 424px          | < 768px         | < 1024px        | < 1279px        | < 1366px        |
 | :----------------- |:----------------:|----------------:|----------------:|----------------:|----------------:|
@@ -400,3 +391,13 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
+
+## Browser support
+- Google Chrome (latest)
+- Opera (latest)
+- Firefox (latest)
+- Safari 6.2+
+- Internet Explorer 8+
+- iOS 7+
+- Android 4.4+
+- Windows Phone 8.1+
