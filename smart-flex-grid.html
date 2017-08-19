@@ -17,27 +17,111 @@
 
 
 <div class="all-content">
+
+
+
+
+
 <!-- menu -->
-<div class="sub-menu">
+<div class="menu">
     <span class="title">COMPONENTS</span>
     <ul>
-        <li id="s1" class="active"><span>Flex Container</span></li>
-        <li id="s2"><span>Direction</span></li>
-        <li id="s3"><span>Wrap</span></li>
-        <li id="s4"><span>Justify Content</span></li>
-        <li id="s5"><span>Align Items</span></li>
-        <li id="s6"><span>Align Self</span></li>
-        <li id="s7"><span>Align Content</span></li>
-        <li id="s8"><span>Auto Margin</span></li>
-        <li id="s9"><span>Order</span></li>
+        <li>
+            <span id="flex-container" class="active">Flex Container</span>
+             <ul>
+                <li><span id="d-flex">flex</span></li>
+                <li><span id="d-inline-flex">inline-flex</span></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <span id="flex-direction">Direction</span>
+            <ul>
+                <li><span id="row">row</span></li>
+                <li><span id="row-reverse">row-reverse</span></li>
+                <li><span id="column">column</span></li>
+                <li><span id="column-reverse">column-reverse</span></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <span id="flex-wrap">Wrap</span>
+            <ul>
+                <li><span id="wrap">wrap</span></li>
+                <li><span id="wrap-reverse">wrap-reverse</span></li>
+                <li><span id="nowrap">nowrap</span></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <span id="flex-justify">Justify Content</span>
+            <ul>
+                <li><span id="justify-flex-start">flex-start</span></li>
+                <li><span id="justify-flex-end">flex-end</span></li>
+                <li><span id="justify-center">center</span></li>
+                <li><span id="justify-baseline">baseline</span></li>
+                <li><span id="justify-between">space-beetwen</span></li>
+                <li><span id="justify-around">space-around</span></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <span id="flex-align-items">Align Items</span>
+            <ul>
+                <li><span id="align-items-flex-start">flex-start</span></li>
+                <li><span id="align-items-flex-end">flex-end</span></li>
+                <li><span id="align-items-center">center</span></li>
+                <li><span id="align-items-baseline">baseline</span></li>
+                <li><span id="align-items-stretch">stretch</span></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <span id="flex-align-self">Align Self</span>
+            <ul>
+                <li><span id="align-self-flex-start">flex-start</span></li>
+                <li><span id="align-self-flex-end">flex-end</span></li>
+                <li><span id="align-self-center">center</span></li>
+                <li><span id="align-self-baseline">baseline</span></li>
+                <li><span id="align-self-stretch">stretch</span></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <span id="flex-align">Align Content</span>
+            <ul>
+                <li><span id="align-content-flex-start">flex-start</span></li>
+                <li><span id="align-content-flex-end">flex-end</span></li>
+                <li><span id="align-content-center">center</span></li>
+                <li><span id="align-content-between">space-between</span></li>
+                <li><span id="align-content-around">space-around</span></li>
+            </ul>
+        </li>
+
+        <li><span id="flex-auto-margin">Auto Margin</span></li>
+        <li><span id="flex-order">Order</span></li>
     </ul>
+
+
+    <!-- copyright -->
     <span class="copyright">
         <span class="name">kenan gündoğan</span>
         <span class="email">kenangundogann@gmail.com</span>
     </span>
+
 </div>
 
 
+
+
+
+<!-- header -->
 <div class="head">
     <div class="info">
         <span class="title">SmartFlex (Flex Grid Framework)</span>
@@ -45,17 +129,24 @@
     </div>
 </div>
 
+
+
+
+
+
+
+
 <!-- flex container -->
 <div class="example-container">
 
 
 <!-- flex wrapper -->
-<div class="example-wrapper s1-content">
+<div class="example-wrapper flex-container-content">
     <div class="info">
         <div class="title"><span>Flex Container</span></div>
     </div>
             <!-- example-->
-            <div class="example">
+            <div class="example d-flex-content">
                 <div class="info">
                     <div class="title"><span>flex</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -80,7 +171,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example d-inline-flex-content">
                 <div class="info">
                     <div class="title"><span>Inline-flex</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -118,12 +209,12 @@
 
 
 <!-- flex direction -->
-<div class="example-wrapper s2-content">
+<div class="example-wrapper flex-direction-content">
     <div class="info">
         <div class="title"><span>Flex > Direction</span></div>
     </div>
             <!-- example-->
-            <div class="example">
+            <div class="example row-content">
                 <div class="info">
                     <div class="title"><span>row</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -149,7 +240,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example row-reverse-content">
                 <div class="info">
                     <div class="title"><span>row-reverse</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -177,7 +268,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example column-content">
                 <div class="info">
                     <div class="title"><span>column</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -203,7 +294,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example column-reverse-content">
                 <div class="info">
                     <div class="title"><span>column-reverse</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -242,13 +333,13 @@
 
 
 <!-- flex wrap -->
-<div class="example-wrapper s3-content">
+<div class="example-wrapper flex-wrap-content">
     <div class="info">
         <div class="title"><span>Flex > Wrap</span></div>
     </div>
 
             <!-- example-->
-            <div class="example">
+            <div class="example nowrap-content">
                 <div class="info">
                     <div class="title"><span>nowrap</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -278,7 +369,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example wrap-content">
                 <div class="info">
                     <div class="title"><span>wrap</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -308,7 +399,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example wrap-reverse-content">
                 <div class="info">
                     <div class="title"><span>wrap-reverse</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -350,13 +441,13 @@
 
 
 <!-- flex justfy-content-->
-<div class="example-wrapper s4-content">
+<div class="example-wrapper flex-justify-content">
     <div class="info">
         <div class="title"><span>Flex > Justify-Content</span></div>
     </div>
 
             <!-- example-->
-            <div class="example">
+            <div class="example justify-flex-start-content">
                 <div class="info">
                     <div class="title"><span>flex-start</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -383,7 +474,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example justify-flex-end-content">
                 <div class="info">
                     <div class="title"><span>flex-end</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -409,7 +500,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example justify-center-content">
                 <div class="info">
                     <div class="title"><span>center</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -434,7 +525,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example justify-baseline-content">
                 <div class="info">
                     <div class="title"><span>baseline</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -460,7 +551,7 @@
 
 
             <!-- example 14-->
-            <div class="example">
+            <div class="example justify-around-content">
                 <div class="info">
                     <div class="title"><span>space-around</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -487,7 +578,7 @@
 
 
             <!-- example 15-->
-            <div class="example">
+            <div class="example justify-between-content">
                 <div class="info">
                     <div class="title"><span>space-between</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -526,12 +617,12 @@
 
 
 <!-- flex align-items-->
-<div class="example-wrapper s5-content">
+<div class="example-wrapper flex-align-items-content">
     <div class="info">
         <div class="title"><span>Flex > Align-Items</span></div>
     </div>
             <!-- example 16-->
-            <div class="example">
+            <div class="example align-items-flex-start-content">
                 <div class="info">
                     <div class="title"><span>flex-start</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -557,7 +648,7 @@
 
 
             <!-- example 17-->
-            <div class="example">
+            <div class="example align-items-flex-end-content">
                 <div class="info">
                     <div class="title"><span>flex-end</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -582,7 +673,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-items-center-content">
                 <div class="info">
                     <div class="title"><span>center</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -607,7 +698,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-items-baseline-content">
                 <div class="info">
                     <div class="title"><span>baseline</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -632,7 +723,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-items-stretch-content">
                 <div class="info">
                     <div class="title"><span>stretch</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -671,13 +762,13 @@
 
 
 <!-- flex align-self-->
-<div class="example-wrapper s6-content">
+<div class="example-wrapper flex-align-self-content">
     <div class="info">
         <div class="title"><span>Flex > Align-Self</span></div>
     </div>
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-self-flex-start-content">
                 <div class="info">
                     <div class="title"><span>flex-start</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -703,7 +794,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-self-flex-end-content">
                 <div class="info">
                     <div class="title"><span>flex-end</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -728,7 +819,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-self-center-content">
                 <div class="info">
                     <div class="title"><span>center</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -753,7 +844,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-self-baseline-content">
                 <div class="info">
                     <div class="title"><span>baseline</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -778,7 +869,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-self-stretch-content">
                 <div class="info">
                     <div class="title"><span>stretch</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -816,12 +907,12 @@
 
 
 <!-- flex align-content-->
-<div class="example-wrapper s7-content">
+<div class="example-wrapper flex-align-content">
     <div class="info">
         <div class="title"><span>Flex > Align-Content</span></div>
     </div>
             <!-- example-->
-            <div class="example">
+            <div class="example align-content-flex-start-content">
                 <div class="info">
                     <div class="title"><span>flex-start</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -851,7 +942,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-content-flex-end-content">
                 <div class="info">
                     <div class="title"><span>flex-end</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -880,7 +971,7 @@
 
 
             <!-- example -->
-            <div class="example">
+            <div class="example align-content-center-content">
                 <div class="info">
                     <div class="title"><span>center</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -909,7 +1000,7 @@
 
 
             <!-- example -->
-            <div class="example">
+            <div class="example align-content-between-content">
                 <div class="info">
                     <div class="title"><span>space-between</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -938,7 +1029,7 @@
 
 
             <!-- example-->
-            <div class="example">
+            <div class="example align-content-around-content">
                 <div class="info">
                     <div class="title"><span>space-around</span> <span></span> <span></span></div>
                     <span class="description"> On mobile devices, tablets and below, the columns will automatically stack.</span>
@@ -981,7 +1072,7 @@
 
 
 <!-- flex margin auto-->
-<div class="example-wrapper s8-content">
+<div class="example-wrapper flex-auto-margin-content">
     <div class="info">
         <div class="title"><span>Flex > Margin Auto</span></div> 
     </div>
@@ -1053,7 +1144,7 @@
 
 
 <!-- flex order-->
-<div class="example-wrapper s9-content">
+<div class="example-wrapper flex-order-content">
     <div class="info">
         <div class="title"><span>Flex > Order</span></div>
     </div>

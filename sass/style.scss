@@ -95,6 +95,7 @@ html {
             }
             span:nth-child(2){
                 order:-1; width: 30px; height: 30px; border-radius: 100%; background-color: #333; color: #fff; position:relative; display: flex; justify-content: center; align-items: center;
+                &.active{background-color: #663399;}
                 &:after{
                     content: "1"; position:relative; top:0px; left:0px;
                     counter-increment: example-count;

@@ -474,17 +474,27 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
   .flex-mt-auto-xl { margin-top: auto; }
   .flex-mb-auto-xl { margin-bottom: auto; } }
 
-.sub-menu { width: 230px; height: 100%; position: fixed; z-index: 100; top: 0px; right: 0px; background-color: #fff; padding: 40px; border-left: solid 1px #dedede; }
+.menu { width: 230px; height: 100%; position: fixed; z-index: 100; top: 0px; right: 0px; background-color: #fff; padding: 40px; border-left: solid 1px #dedede; }
 
-.sub-menu .title { display: block; font-size: 20px; font-weight: bold; text-align: right; margin-bottom: 20px; padding-bottom: 10px; border-bottom: dotted 1px #dedede; }
+.menu .title { display: block; font-size: 20px; font-weight: bold; text-align: right; margin-bottom: 20px; padding-bottom: 10px; border-bottom: dotted 1px #dedede; }
 
-.sub-menu ul { text-align: right; }
+.menu > ul { text-align: right; }
 
-.sub-menu ul li { height: 25px; margin-bottom: 10px; cursor: pointer; }
+.menu > ul > li { margin-bottom: 10px; cursor: pointer; }
 
-.sub-menu ul li:hover span, .sub-menu ul li.active span { color: rebeccapurple; font-size: 20px; font-weight: bold; }
+.menu > ul > li:hover > ul { max-height: 250px; padding: 15px 15px 5px 15px; }
 
-.sub-menu ul li span { transition: ease 300ms; font-size: 16px; color: #333; }
+.menu > ul > li > span { display: inline-block; height: 25px; transition: ease 300ms; font-size: 16px; color: #333; transition: all 0.3s ease-out; }
+
+.menu > ul > li > span:hover, .menu > ul > li > span.active { color: rebeccapurple; font-size: 20px; font-weight: bold; }
+
+.menu > ul > li ul { overflow: hidden; max-height: 0px; transition: all 0.5s ease-out; padding: 0px; }
+
+.menu > ul > li ul li > span { display: flex; justify-content: flex-end; align-items: center; position: relative; height: 25px; font-size: 14px; color: #999; transition: all 0.3s ease-out; }
+
+.menu > ul > li ul li > span:after { content: ""; width: 5px; height: 5px; background-color: #663399; position: relative; right: -15px; border-radius: 100%; }
+
+.menu > ul > li ul li > span:hover, .menu > ul > li ul li > span.active { color: rebeccapurple; font-size: 16px; font-weight: bold; }
 
 html { height: 100%; }
 
@@ -545,6 +555,8 @@ html body { height: 100%; padding: 40px; font-family: 'Lato', sans-serif; }
 .example-wrapper .info .title span:nth-child(1), .example .info .title span:nth-child(1) { font-size: 30px; font-weight: bold; color: #333; }
 
 .example-wrapper .info .title span:nth-child(2), .example .info .title span:nth-child(2) { order: -1; width: 30px; height: 30px; border-radius: 100%; background-color: #333; color: #fff; position: relative; display: flex; justify-content: center; align-items: center; }
+
+.example-wrapper .info .title span:nth-child(2).active, .example .info .title span:nth-child(2).active { background-color: #663399; }
 
 .example-wrapper .info .title span:nth-child(2):after, .example .info .title span:nth-child(2):after { content: "1"; position: relative; top: 0px; left: 0px; counter-increment: example-count; content: counter(example-count); }
 
