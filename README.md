@@ -41,22 +41,22 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Container
-- ### flex
+1. ### flex
     ```javascript
-    <div class="flex-row d-flex d-flex">
+    * <div class="flex-row d-flex d-flex">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
         <div class="flex-item"> <div class="content"> flex item 2</div></div>
         <div class="flex-item"> <div class="content"> flex item 3</div></div>
-    </div>
+     </div>
     ```
 
-- ### inline-flex
+2. ### inline-flex
     ```javascript
-    <div class="flex-row d-flex d-inline-flex">
+    * <div class="flex-row d-flex d-inline-flex">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
         <div class="flex-item"> <div class="content"> flex item 2</div></div>
         <div class="flex-item"> <div class="content"> flex item 3</div></div>
-    </div>
+     </div>
     ```
 
 
@@ -67,7 +67,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Direction
-- ### row
+1. ### row
     ```javascript
     <div class="flex-row d-flex flex-d-row">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -76,7 +76,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### row-reverse
+2. ### row-reverse
     ```javascript
     <div class="flex-row d-flex flex-d-row-reverse">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -85,7 +85,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### column
+3. ### column
     ```javascript
     <div class="flex-row d-flex flex-d-column">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -94,7 +94,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### row-reverse
+4. ### row-reverse
     ```javascript
     <div class="flex-row d-flex flex-d-column-reverse">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -110,7 +110,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Wrap
-- ### wrap
+1. ### wrap
     ```javascript
     <div class="flex-row d-flex flex-wrap">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -119,7 +119,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### wrap-reverse
+2. ### wrap-reverse
     ```javascript
     <div class="flex-row d-flex flex-wrap-reverse">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -128,7 +128,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### nowrap
+3. ### nowrap
     ```javascript
     <div class="flex-row d-flex flex-nowrap">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -143,7 +143,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Justify Content
-- ### flex-start
+1. ### flex-start
     ```javascript
     <div class="flex-row d-flex justify-content-start">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -152,7 +152,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-end
+2. ### flex-end
     ```javascript
     <div class="flex-row d-flex justify-content-end">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -161,7 +161,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-center
+3. ### flex-center
     ```javascript
     <div class="flex-row d-flex justify-content-center">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -170,7 +170,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-baseline
+4. ### flex-baseline
     ```javascript
     <div class="flex-row d-flex justify-content-baseline">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -179,7 +179,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-space-around
+5. ### flex-space-around
     ```javascript
     <div class="flex-row d-flex justify-content-around">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -188,7 +188,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-space-between
+6. ### flex-space-between
     ```javascript
     <div class="flex-row d-flex justify-content-between">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -204,7 +204,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Align Items
-- ### flex-start
+1. ### flex-start
     ```javascript
     <div class="flex-row d-flex align-items-start">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -213,7 +213,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-end
+2. ### flex-end
     ```javascript
     <div class="flex-row d-flex align-items-end">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -222,7 +222,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-center
+3. ### flex-center
     ```javascript
     <div class="flex-row d-flex align-items-center">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -231,7 +231,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-baseline
+4. ### flex-baseline
     ```javascript
     <div class="flex-row d-flex align-items-baseline">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -240,7 +240,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-stretch
+5. ### flex-stretch
     ```javascript
     <div class="flex-row d-flex align-items-stretch">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -257,7 +257,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Align Self
-- ### flex-start
+1. ### flex-start
     ```javascript
     <div class="flex-row d-flex align-self-start">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -266,7 +266,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-end
+2. ### flex-end
     ```javascript
     <div class="flex-row d-flex align-self-end">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -275,7 +275,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-center
+3. ### flex-center
     ```javascript
     <div class="flex-row d-flex align-self-center">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -284,7 +284,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-baseline
+4. ### flex-baseline
     ```javascript
     <div class="flex-row d-flex align-self-baseline">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -293,7 +293,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-stretch
+5. ### flex-stretch
     ```javascript
     <div class="flex-row d-flex align-self-stretch">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -309,7 +309,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Align Content
-- ### flex-start
+1. ### flex-start
     ```javascript
     <div class="flex-row d-flex align-content-start">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -318,7 +318,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-end
+2. ### flex-end
     ```javascript
     <div class="flex-row d-flex align-content-end">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -327,7 +327,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-center
+3. ### flex-center
     ```javascript
     <div class="flex-row d-flex align-content-center">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -336,7 +336,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-space-around
+4. ### flex-space-around
     ```javascript
     <div class="flex-row d-flex align-content-around">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -345,7 +345,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-- ### flex-space-between
+5. ### flex-space-between
     ```javascript
     <div class="flex-row d-flex d-flex align-content-between">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
@@ -360,7 +360,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Order
-- ### order
+1. ### order
     ```javascript
     <div class="flex-row d-flex">
         <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 1 (order-unordered)</div></div>
@@ -375,7 +375,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 
 ## Flex Margin Auto
-- ### margin-left-auto
+1. ### margin-left-auto
     ```javascript
     <div class="flex-row d-flex">
         <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 1</div></div>
@@ -384,9 +384,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
     </div>
     ```
 
-
-## Flex Margin Auto
-- ### margin-right-auto
+2. ### margin-right-auto
     ```javascript
     <div class="flex-row d-flex">
         <div class="flex-item flex-grid-xs-3 flex-mr-auto"> <div class="content"> flex item 1 (item left)</div></div>
