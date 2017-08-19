@@ -34,45 +34,45 @@ Smart grid layouts to get you familiar with building within the "SmartFlex" grid
 
 ## Flex Grid, Attribute Screen Size (-xs -sm -md -lg -xl)
 
-| Media Screen Size  | < 424px                    | 
-| :----------------- |:---------------------------|
-| flex container     | display-flex-xs            |
-|                    | display-inline-flex-xs     | 
-| direction          | flex-d-row-xs              |
-|                    | flex-d-row-reverse-xs      |
-|                    | flex-d-column-xs           |
-|                    | flex-d-column-reverse-xs   | 
-|wrap                | flex-wrap-xs               |
-|                    | flex-wrap-reverse-xs       |
-|                    | flex-nowrap-xs             |
-|justfy-content      | justify-content-start-xs   | 
-|                    | justify-content-end-xs     |
-|                    | justify-content-center-xs  | 
-|                    | justify-content-baseline-xs|   
-|                    | justify-content-arround-xs |  
-|                    | justify-content-between-xs |
-|align-item          | align-items-start-xs       |
-|                    | align-items-end-xs         |
-|                    | align-items-center-xs      |
-|                    | align-items-baseline-xs    |
-|                    | align-items-stretch-xs     |
-|align-self          | align-selft-start-xs       |
-|                    | align-selft-end-xs         |
-|                    | align-selft-center-xs      |
-|                    | align-selft-baseline-xs    |
-|                    | align-selft-stretch-xs     |
-|align-content       | align-content-start-xs     |
-|                    | align-content-end-xs       |
-|                    | align-content-center-xs    |
-|                    | align-content-between-xs   |
-|                    | align-content-around-xs    |
-|order               | flex-order-first-xs        |
-|                    | flex-order-last-xs         |
-|                    | flex-order-unordered-xs    |
-|auto margin         | flex-ml-auto-xs            |
-|                    | flex-mr-auto-xs            |
-|                    | flex-mt-auto-xs            |
-|                    | flex-mb-auto-xs            |
+| Media Screen Size          | < 424px        | < 768px        | < 1024px       | < 1279px       | < 1366px       |
+|:---------------------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+| display-flex               | -xs            | -sm            | -md            | -lg            | -xl            |
+| display-inline-flex        | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-d-row                 | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-d-row-reverse         | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-d-column              | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-d-column-reverse      | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-wrap                  | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-wrap-reverse          | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-nowrap                | -xs            | -sm            | -md            | -lg            | -xl            |
+| justify-content-start      | -xs            | -sm            | -md            | -lg            | -xl            |
+| justify-content-end        | -xs            | -sm            | -md            | -lg            | -xl            |
+| justify-content-center     | -xs            | -sm            | -md            | -lg            | -xl            |
+| justify-content-baseline   | -xs            | -sm            | -md            | -lg            | -xl            |
+| justify-content-arround    | -xs            | -sm            | -md            | -lg            | -xl            |
+| justify-content-between    | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-items-start          | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-items-end            | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-items-center         | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-items-baseline       | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-items-stretch        | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-selft-start          | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-selft-end            | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-selft-center         | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-selft-baseline       | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-selft-stretch        | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-content-start        | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-content-end          | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-content-center       | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-content-between      | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-content-around       | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-order-first           | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-order-last            | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-order-unordered       | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-ml-auto               | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-mr-auto               | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-mt-auto               | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-mb-auto               | -xs            | -sm            | -md            | -lg            | -xl            |
 
 
 
