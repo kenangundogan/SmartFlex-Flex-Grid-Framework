@@ -8,7 +8,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 4. [Align Items](#flex-align-items)
 5. [Align Self](#flex-align-self)
 6. [Align Content](#flex-align-content)
-7. [Auto Margin](#flex-auto-margin)
+7. [Auto Margin](#flex-margin-auto)
 8. [Order](#flex-order)
 
 ## Browser support
@@ -144,6 +144,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 
 4. ## Flex Justify Content
 * ### flex-start
+#### flex-start, flex-end, flex-center, flex-baseline, flex-space-between, flex-space-around
     ```javascript
     <div class="flex-row d-flex justify-content-start">
         <div class="flex-item"> <div class="content"> flex item 1</div></div>
