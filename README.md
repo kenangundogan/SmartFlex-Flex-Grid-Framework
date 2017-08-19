@@ -38,3 +38,95 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
 | 100% / 12 * 10     | flex-grid-xs-10       | flex-grid-sm-10      | flex-grid-md-10      | flex-grid-lg-10      | flex-grid-xl-10      |
 | 100% / 12 * 11     | flex-grid-xs-11       | flex-grid-sm-11      | flex-grid-md-11      | flex-grid-lg-11      | flex-grid-xl-11      |
 | 100% / 12 * 12     | flex-grid-xs-12       | flex-grid-sm-12      | flex-grid-md-12      | flex-grid-lg-12      | flex-grid-xl-12      |
+
+
+## Flex Container
+### flex
+```javascript
+<div class="flex-row d-flex">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+### inline-flex
+```javascript
+<div class="flex-row d-inline-flex">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+
+
+
+
+## Flex Direction
+### row
+```javascript
+<div class="flex-row flex-d-row">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+### row-reverse
+```javascript
+<div class="flex-row flex-d-row-reverse">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+### column
+```javascript
+<div class="flex-row flex-d-column">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+### row-reverse
+```javascript
+<div class="flex-row flex-d-column-reverse">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+
+
+
+## Flex Wrap
+### wrap
+```javascript
+<div class="flex-row flex-wrap">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+### wrap-reverse
+```javascript
+<div class="flex-row flex-wrap-reverse">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
+
+### nowrap
+```javascript
+<div class="flex-row flex-nowrap">
+    <div class="flex-item"> <div class="content"> flex item 1</div></div>
+    <div class="flex-item"> <div class="content"> flex item 2</div></div>
+    <div class="flex-item"> <div class="content"> flex item 3</div></div>
+</div>
+```
