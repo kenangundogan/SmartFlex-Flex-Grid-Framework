@@ -38,45 +38,37 @@ Smart grid layouts to get you familiar with building within the "SmartFlex" grid
 | :----------------- |:-------------------------:|
 | flex container     | display-flex-xs           |
 |                    | display-inline-flex-xs    | 
-
 | direction          | flex-d-row                |
 |                    | flex-d-row-reverse        |
 |                    | flex-d-column             |
 |                    | flex-d-column-reverse     | 
-
 |wrap                | flex-wrap                 |
 |                    | flex-wrap-reverse         |
 |                    | flex-nowrap               |
-
 |justfy-content      | justify-content-start     | 
 |                    | justify-content-end       |
 |                    | justify-content-center    | 
 |                    | justify-content-baseline  |   
 |                    | justify-content-arround   |  
 |                    | justify-content-between   |
-
 |align-item          | align-items-start         |
 |                    | align-items-end           |
 |                    | align-items-center        |
 |                    | align-items-baseline      |
 |                    | align-items-stretch       |
-
 |align-self          | align-selft-start         |
 |                    | align-selft-end           |
 |                    | align-selft-center        |
 |                    | align-selft-baseline      |
 |                    | align-selft-stretch       |
-
 |align-content       | align-content-start       |
 |                    | align-content-end         |
 |                    | align-content-center      |
 |                    | align-content-between     |
 |                    | align-content-around      |
-
 |order               | flex-order-first          |
 |                    | flex-order-last           |
 |                    | flex-order-unordered      |
-
 |auto margin         | flex-ml-auto              |
 |                    | flex-mr-auto              |
 |                    | flex-mt-auto              |
