@@ -34,45 +34,45 @@ Smart grid layouts to get you familiar with building within the "SmartFlex" grid
 
 ## Flex Grid, Attribute Screen Size (-xs -sm -md -lg -xl)
 
-| Media Screen Size  | < 424px                   | 
-| :----------------- |:--------------------------|
-| flex container     | display-flex-xs           |
-|                    | display-inline-flex-xs    | 
-| direction          | flex-d-row                |
-|                    | flex-d-row-reverse        |
-|                    | flex-d-column             |
-|                    | flex-d-column-reverse     | 
-|wrap                | flex-wrap                 |
-|                    | flex-wrap-reverse         |
-|                    | flex-nowrap               |
-|justfy-content      | justify-content-start     | 
-|                    | justify-content-end       |
-|                    | justify-content-center    | 
-|                    | justify-content-baseline  |   
-|                    | justify-content-arround   |  
-|                    | justify-content-between   |
-|align-item          | align-items-start         |
-|                    | align-items-end           |
-|                    | align-items-center        |
-|                    | align-items-baseline      |
-|                    | align-items-stretch       |
-|align-self          | align-selft-start         |
-|                    | align-selft-end           |
-|                    | align-selft-center        |
-|                    | align-selft-baseline      |
-|                    | align-selft-stretch       |
-|align-content       | align-content-start       |
-|                    | align-content-end         |
-|                    | align-content-center      |
-|                    | align-content-between     |
-|                    | align-content-around      |
-|order               | flex-order-first          |
-|                    | flex-order-last           |
-|                    | flex-order-unordered      |
-|auto margin         | flex-ml-auto              |
-|                    | flex-mr-auto              |
-|                    | flex-mt-auto              |
-|                    | flex-mb-auto              |
+| Media Screen Size  | < 424px                    | 
+| :----------------- |:---------------------------|
+| flex container     | display-flex-xs            |
+|                    | display-inline-flex-xs     | 
+| direction          | flex-d-row-xs              |
+|                    | flex-d-row-reverse-xs      |
+|                    | flex-d-column-xs           |
+|                    | flex-d-column-reverse-xs   | 
+|wrap                | flex-wrap-xs               |
+|                    | flex-wrap-reverse-xs       |
+|                    | flex-nowrap-xs             |
+|justfy-content      | justify-content-start-xs   | 
+|                    | justify-content-end-xs     |
+|                    | justify-content-center-xs  | 
+|                    | justify-content-baseline-xs|   
+|                    | justify-content-arround-xs |  
+|                    | justify-content-between-xs |
+|align-item          | align-items-start-xs       |
+|                    | align-items-end-xs         |
+|                    | align-items-center-xs      |
+|                    | align-items-baseline-xs    |
+|                    | align-items-stretch-xs     |
+|align-self          | align-selft-start-xs       |
+|                    | align-selft-end-xs         |
+|                    | align-selft-center-xs      |
+|                    | align-selft-baseline-xs    |
+|                    | align-selft-stretch-xs     |
+|align-content       | align-content-start-xs     |
+|                    | align-content-end-xs       |
+|                    | align-content-center-xs    |
+|                    | align-content-between-xs   |
+|                    | align-content-around-xs    |
+|order               | flex-order-first-xs        |
+|                    | flex-order-last-xs         |
+|                    | flex-order-unordered-xs    |
+|auto margin         | flex-ml-auto-xs            |
+|                    | flex-mr-auto-xs            |
+|                    | flex-mt-auto-xs            |
+|                    | flex-mb-auto-xs            |
 
 
 
