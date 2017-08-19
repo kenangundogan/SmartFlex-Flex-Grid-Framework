@@ -16,8 +16,8 @@ Smart grid layouts to get you familiar with building within the "SmartFlex" grid
 
 ## Flex Grid, Item Screen Size (-xs -sm -md -lg -xl)
 
-| Media Screen Size  | < 424px          | < 768px         | < 1024px        | < 1279px        | < 1366px        |
-| :----------------- |:----------------:|----------------:|----------------:|----------------:|----------------:|
+| Media Screen Size  | < 424px               | < 768px              | < 1024px             | < 1279px             | < 1366px             |
+| :----------------- |:---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|
 | 100% / 12 * 1      | flex-grid-xs-1        | flex-grid-sm-1       | flex-grid-md-1       | flex-grid-lg-1       | flex-grid-xl-1       |
 | 100% / 12 * 2      | flex-grid-xs-2        | flex-grid-sm-2       | flex-grid-md-2       | flex-grid-lg-2       | flex-grid-xl-2       |
 | 100% / 12 * 3      | flex-grid-xs-3        | flex-grid-sm-3       | flex-grid-md-3       | flex-grid-lg-3       | flex-grid-xl-3       |
