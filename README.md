@@ -1,1 +1,1 @@
-# Smart Flex Grid Framework (Scss/Sass/Css)
+# SmartFlex (Flex Grid Framework - Scss/Sass/Css)
