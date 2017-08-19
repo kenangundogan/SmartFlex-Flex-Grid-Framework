@@ -1,0 +1,22 @@
+.sub-menu{
+    width: 230px; height:100%; position:fixed; z-index:100; top:0px; right:0px; background-color:#fff; padding:40px;
+    border-left: solid 1px #dedede;
+    .title{
+        display: block; font-size: 20px; font-weight:bold; text-align:right; margin-bottom:20px; padding-bottom:10px; border-bottom: dotted 1px #dedede;
+    }
+    ul{
+        text-align: right;
+        li{
+            height: 25px; margin-bottom: 10px; cursor:pointer;
+            &:hover,&.active{ 
+                span{
+                    color: rebeccapurple; font-size:20px; font-weight: bold;
+                }
+            }
+            span{
+                transition: ease 300ms;
+                font-size:16px; color:#333;
+            }
+        }
+    }
+}
