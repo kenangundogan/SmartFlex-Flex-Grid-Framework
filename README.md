@@ -35,7 +35,7 @@ Smart grid layouts to get you familiar with building within the "SmartFlex" grid
 ## Flex Grid, Attribute Screen Size (-xs -sm -md -lg -xl)
 
 | Media Screen Size  | < 424px                   | 
-| :----------------- |:-------------------------:|
+| :----------------- |:--------------------------|
 | flex container     | display-flex-xs           |
 |                    | display-inline-flex-xs    | 
 | direction          | flex-d-row                |
