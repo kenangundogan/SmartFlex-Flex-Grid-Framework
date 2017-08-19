@@ -2,14 +2,15 @@
 Smart grid layouts to get you familiar with building within the "SmartFlex" grid system.
 
 ## Flex Components
-1. [Direction](#flex-direction)
-2. [Wrap](#flex-wrap)
-3. [Justify Content](#flex-justify-content)
-4. [Align Items](#flex-align-items)
-5. [Align Self](#flex-align-self)
-6. [Align Content](#flex-align-content)
-7. [Auto Margin](#flex-margin-auto)
-8. [Order](#flex-order)
+1. [Container](#flex)
+2. [Direction](#flex-direction)
+3. [Wrap](#flex-wrap)
+4. [Justify Content](#flex-justify-content)
+5. [Align Items](#flex-align-items)
+6. [Align Self](#flex-align-self)
+7. [Align Content](#flex-align-content)
+8. [Auto Margin](#flex-margin-auto)
+9. [Order](#flex-order)
 
 
 
