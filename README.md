@@ -300,7 +300,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
         <div class="flex-item"> <div class="content"> flex item 2</div></div>
         <div class="flex-item"> <div class="content"> flex item 3</div></div>
     </div>
-
+    ```
 
 
 
@@ -368,6 +368,7 @@ Smart grid layouts to get you familiar with building within the "SMART FLEX" gri
         <div class="flex-item flex-grid-xs-3 flex-order-first"> <div class="content"> flex item 3 (order-first)</div></div>
     </div>
     ```
+
 
 
 
